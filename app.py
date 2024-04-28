@@ -5,10 +5,10 @@ from llama_cpp.llama import Llama
 import pandas as pd
 
 corpus = scrape_subreddit(
-    client_id = "ti8VFCHgaKzj47Hw-hvVOQ",
-    client_secret = "VwNhXkhRYaPYSgGqmRShykNIOQmfnA",
-    username = "VayIvanov", 
-    password = "K3SUCn&UpMLY$ljy",
+    client_id = "",
+    client_secret = "",
+    username = "", 
+    password = "",
     user_agent = "Fast Audience Research (FAR) by u/TwinPhoenix1",
     subreddit = 'BaseBuildingGames',
     limit = 12)
